@@ -6,7 +6,6 @@ Console.WriteLine("\n'OneOf' used as 'Option Type' compared with pure 'Option Ty
 
 var positiveNumberChecker = PositiveNumberChecker.Create(-1);
 
-
 // 1.) with OneOf<T, None>
 positiveNumberChecker
     .WriteTitleAndNumber("OneOf<int, None>")
@@ -24,6 +23,5 @@ positiveNumberChecker
         _ => "is a positive number",
         "is a negative number")
     .Print();
-
 
 KeyHandler.WaitForKey();
