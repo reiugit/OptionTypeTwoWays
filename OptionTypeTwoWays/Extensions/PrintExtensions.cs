@@ -2,16 +2,7 @@
 
 internal static class PrintExtensions
 {
-    public static PositiveNumberChecker WriteNumber(
-        this PositiveNumberChecker positiveNumberChecker)
-    {
-        Console.WriteLine($"\nNumber: {positiveNumberChecker.Number}");
-
-        return positiveNumberChecker;
-    }
-
-
-    public static PositiveNumberChecker WriteTitle(
+    public static PositiveNumberChecker WriteTitleAndNumber(
         this PositiveNumberChecker positiveNumberChecker,
         string title)
     {
