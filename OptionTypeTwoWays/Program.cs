@@ -4,8 +4,8 @@ using OptionTypeTwoWays.Keyhandler;
 
 Console.WriteLine("\n'OneOf' used as 'Option Type' compared with pure 'Option Type':\n");
 
-var positiveNumberChecker = PositiveNumberChecker
-    .Create(-1);
+var positiveNumberChecker = PositiveNumberChecker.Create(-1);
+
 
 // 1.) with OneOf<T, None>
 positiveNumberChecker
