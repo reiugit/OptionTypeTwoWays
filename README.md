@@ -3,4 +3,4 @@
 * OneOf<T, None>
 * Option<T>
 
-Both have a Match fuction to handle both cases(value or None).
+Both have a Match fuction to handle both cases (value or None).
